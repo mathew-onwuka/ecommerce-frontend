@@ -1,0 +1,143 @@
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/*Large pc*/
+@media screen and (min-width: 992px)  {
+.col-1 {width: 8.33%; ;}
+.col-2 {width: 16.66%; ;}
+.col-3 {width: 25%; ;}
+.col-4 {width: 33.33%; ;}
+.col-5 {width: 41.66%; ;}
+.col-6 {width: 50%; ;}
+.col-7 {width: 58.33%; ;}
+.col-8 {width: 66.66%; ;}
+.col-9 {width: 75%; ;}
+.col-10 {width: 83.33%; ;}
+.col-11 {width: 91.66%; ;}
+.col-12 {width: 100%; ;}
+} 
+
+
+/*Large devices and desktops*/
+@media screen and (min-width: 768px) and (max-width: 991px){ 
+.col-1 {width: 8.33%; ;}
+.col-2 {width: 16.66%; ;}
+.col-3 {width: 25%; ;}
+.col-4 {width: 33.33%; ;}
+.col-5 {width: 41.66%; ;}
+.col-6 {width: 50%; ;}
+.col-7 {width: 58.33%; ;}
+.col-8 {width: 66.66%; ;}
+.col-9 {width: 75%; ;}
+.col-10 {width: 83.33%; ;}
+.col-11 {width: 91.66%; ;}
+.col-12 {width: 100%; ;}
+
+
+}
+
+
+/*Big phones, Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 600px) and (max-width: 767px) { 
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+    
+}
+
+/* Style for Larger Screens */
+@media (min-width: 769px) {
+    #topNavRow {
+        display: flex !important; /* Ensure row is displayed */
+        visibility: visible !important;
+        opacity: 1 !important;
+        margin-bottom: 2px;
+    }
+
+    .visible-xs {
+        display: none !important; /* Hide toggle button on larger screens */
+    }
+}
+
+/* Style for Smaller Screens */
+@media (max-width: 768px) {
+    .btn-default {
+        background-color: #b22220;
+        color: #fff;
+        border: none;
+    }
+
+    .btn-default:hover {
+        background-color: #a11e1d;
+        color: #fff;
+    }
+
+    .collapse .inner-first, 
+    .collapse .inner-second {
+        padding: 5px 0;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #b22220; /* Optional: Set background color for better contrast */
+    }
+
+    .navbar .dropdown-menu > li > a {
+        color: #fff; /* Set link color to white */
+    }
+
+    .navbar .dropdown-menu > li > a:hover {
+        color: #b22220; /* Optional: Set hover color for links */
+        background-color: #fff; /* Optional: Add a hover background for contrast */
+    }
+
+    #topNavRow.collapse {
+        display: none;
+    }
+
+    #topNavRow.collapse.in {
+        display: block;
+    }
+}
+
+
+/* devices (phones*/
+@media screen and (max-width: 600px) { 
+
+[class*="col-"] {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 465px) { 
+
+[class*="col-"] {
+  width: 100%;
+}
+
+}
+
+
+
+
+}
+

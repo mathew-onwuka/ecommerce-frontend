@@ -1,0 +1,566 @@
+* {
+    box-sizing: border-box;
+}
+
+h2{
+	font-weight: bold;
+	font-family: tahoma;
+
+}
+
+body{
+	min-height: 800px;
+}
+
+header .container-fluid {
+    padding: 0;
+}
+
+header .container-fluid .row{
+	width: 83.33%;
+	margin-left: 8.4%;
+	height: 100%;
+	margin-bottom: -60px;
+	padding-top: 10px;
+	
+}
+
+header .container-fluid .row .first-top-nav{
+	margin-top: -20px;
+}
+
+header .container-fluid .row .second-top-nav{
+	margin-top: -20px;
+}
+
+header .container-fluid .row .first-top-nav .inner-first{
+	color: #286090;
+}
+
+header .container-fluid .row .second-top-nav .inner-second a{
+	color: #000;
+}
+
+header .container-fluid .navbar {
+    border: none;
+    background-color: #286090;
+    padding: 10px 0;
+    z-index: 1050;
+    margin-bottom: -20px;
+}
+
+header .container-fluid .navbar .container-fluid{
+	width: 80%;
+	margin-left: 10%;
+}
+
+
+header .container-fluid .navbar .navbar-header .navbar-brand img{
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: -63.5px;
+	
+}
+
+header .container-fluid .navbar .navbar-header .navbar-brand:hover {
+    color: #000;
+}
+
+header .container-fluid .navbar .navbar-nav li a {
+    color: #fff;
+}
+
+header .container-fluid .navbar .navbar-nav .active a {
+    background-color: #fff;
+    color: #286090;
+}
+
+header .container-fluid .navbar .navbar-nav .active a:hover {
+    background-color: #286090;
+    color: #fff;
+}
+header .container-fluid .navbar .navbar-nav li ul {
+	background-color: #fff;
+}
+header .container-fluid .navbar .navbar-nav li ul li,
+header .container-fluid .navbar .navbar-nav li ul li a{
+	color: #000;
+}
+.main-body{
+	width: 100%;
+	height: 800px;
+}
+.main-body .container-fluid{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+}
+.main-body .container-fluid .slider-body{
+	width: 100%;
+	height: auto;
+}
+
+.main-body .container-fluid .slider-body .slide{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	
+}
+
+.main-body .container-fluid .slider-body .slide img{
+	width: 100%;
+	height: 720px;
+	display: block;
+}
+
+.main-body .container-fluid .slider-body .slide .slide-body{
+	height: 300px;
+	margin-left: 25%;
+	position: absolute;
+	top: 15%;
+}
+
+.main-body .container-fluid .slider-body .slide .slide-body h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 78px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 5px 5px 2px #286090;
+	font-family: tahoma;
+	animation: colorShift 1s ease-in-out infinite;
+
+}
+
+
+  @keyframes colorShift {
+    0% {
+      color: #3498db; /* Original color */
+    }
+    50% {
+      color: #e74c3c; /* The new color */
+    }
+    100% {
+      color: #3498db; /* Back to the original color */
+    }
+  }
+
+
+.main-body .container-fluid .slider-body .slide .slide-body p{
+	color: #fff;
+	text-align: justify;
+	font-size: 20px;
+	font-style: italic;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.main-body .container-fluid .slider-body .slide .slide-body a{
+	width: 100px;
+	height: 40px;
+	padding: 10px;
+	font-size: 16px;
+	text-transform: capitalize;
+	border-radius: 10px;
+	margin-left: 10px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.main-body .slide-bar{
+	width: 100%;
+	height: 300px;
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.main-body .slide-bar .container{
+	width: 83.3%;
+	margin-left: 8.3%;
+	height: 100%;
+}
+.main-body .slide-bar .container .sub1{
+	height: 70%;
+}
+.main-body .slide-bar .container .sub1 p{
+	text-align: justify;
+	font-style: italic;
+	font-family: "roboto";
+	font-size: 20px;
+	padding-top: 10px;
+	height: 100%;	
+	text-align: center;
+	padding-top: 55%;
+	color: #fff;
+	text-shadow: 2px 1px 1px #000;
+	cursor: pointer;
+
+}
+
+.main-body .slide-bar .container .sub1 p img{
+	height: 140%;
+	z-index: -1;
+	position: relative;
+	top: -75px;
+	border-radius: 20px;
+	filter: brightness(80%);
+}
+
+.about p{
+	font-family: verdana;
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: bold;
+
+}
+
+
+section{
+	width: 83.3%;
+	margin-left: 8.4%;
+	min-height: 800px;
+}
+
+section .box-section{
+	width: 100%;
+	height: 900px;
+	margin-bottom: 60px;
+}
+
+section .box-section .row{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 90px;
+	margin-left: 5px;
+
+}
+
+section .box-section .row .box{
+	height: 30%;
+	margin-top: 10px;
+	
+}
+
+
+section .box-section .row .box p{
+	font-family: verdana;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 2px #000;
+	font-size: 30px;
+	height: 100%;
+	padding-top: 10%;
+	color: #fff;
+}
+
+section .box-section .row .box p:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+section .box-section .row .box p{
+
+}
+
+section .box-section .row .box p img{
+	width: 100%;
+	height: 140%;
+	z-index: -1;
+	position: relative;
+	top: -75px;
+	filter: brightness(90%);
+	box-shadow: 3px 3px 1px #000;
+}
+
+
+section .lower-section{
+	width: 100%;
+	min-height: 900px;
+	margin-top: 100px;
+}
+
+section .lower-section .row{
+	width: 100%;
+	min-height: 100%;
+	margin-bottom: 40px;
+
+}
+
+section .lower-section .row .box{
+	height: 90%;
+}
+
+section .lower-section .row .box p{
+	width: 100%;
+	height: 100%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+section .lower-section .row .box p img{
+	.box-shadow: 12px 12px 2px #000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+section .lower-section .row .box p img:hover{
+	opacity: 0.8;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+section .lower-section .row .box p span{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: bold;
+
+
+}
+
+section .box-team{
+	width: 100%;
+	min-height: 500px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+section .box-team .row{
+	width: 100%;
+	height: 100%;
+	margin-left: 2px;
+}
+
+section .box-team .row .box{
+	height: 80%;
+	margin-top: 20px;
+}
+
+section .box-team .row .box img{
+	width: 96%;
+	height: 75%;
+	margin-left: 2%;
+}
+
+section .box-team .row .box img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+section .box-team .row .box p{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+section .box-team .row .box p span{
+	padding: 5px;
+}
+
+.main-body .contact-bar{
+	width: 100%;
+	height: 80px;
+	background-color: #286090;
+}
+
+.main-body .slide-bar .container{
+	width: 83.3%;
+	margin-left: 8.3%;
+	height: 100%;
+}
+
+.main-body .contact-bar .container .last-sub1 p{
+	text-align: justify;
+	font-style: italic;
+	font-family: "roboto";
+	font-size: 18px;
+	padding-top: 10px;
+	color: #fff;
+}
+.main-body .contact-bar .container .last-sub2 p{
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 18px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.contact{
+	height: 900px;
+	background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ 	background-blend-mode: screen;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 5px solid #ff634f;
+	padding-bottom: 30px;
+	margin-top: 20px;
+}
+.contact h1{
+	text-align: center;
+	text-shadow: 1px 1px 1px #3a3a3a;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.contact h1:first-letter{
+	border-bottom: 2px solid #ff634f;
+}
+.contact .formdata{
+	margin-top: 30px;
+	text-shadow: 1px 1px 1px #3a3a3a;
+	height: 80%;
+	width: 52%;
+	border: 1px solid #ddd;
+ 	margin-left: 24.5%;
+ 	background-color: #f6f6f6;
+ 	border-radius: 2px;
+ 	box-shadow: 1px 1px 10px #fff;
+ 	margin-bottom: 50px;
+}
+.contact .formdata fieldset{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2.5%;
+	margin-bottom: 4.5% 
+	height: 85%;
+	border: 1px solid red;
+	border-radius: 10px;
+	padding-top: 20px;
+}
+.contact .formdata fieldset label{
+	margin-left: 46px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.contact .formdata fieldset:last-child{
+	height: 100px;
+}
+.contact .formdata fieldset input[type="text"]{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+.contact .formdata fieldset input[type="email"]{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 30px;
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contact .formdata fieldset textarea{
+	height: 120px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: none;
+	border: none;
+	border: 1px solid #ff634f;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 16px;
+}
+.contact .formdata input[type="submit"]{
+	width: 20%;
+	height: 35px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: rgba(000, 000, 000, 0.8);
+	color: #fff8df;
+	box-shadow: 1px 1px 10px #fff;	
+	margin-left: 40%;
+	font-size: 20px; 
+}
+.contact .formdata input[type="submit"]:hover{
+	background-color: #f6f6f6;
+	color: #ff634f;
+	box-shadow: 4px 2px 10px #000;
+	cursor: pointer;
+}
+.contact {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+footer{
+	width: 100%;
+	height: 300px;
+}
+
+footer .foot{
+	width: 83.3%;
+	height: 100%;
+	margin-left: 8.3%;
+}
+
+footer .foot .foot-brand{
+	margin-top: 20px;
+}
+footer .foot .foot-brand .logo-brand img{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+
+footer .foot .foot-brand .logo-brand p{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "roboto";
+}
+
+footer .foot .foot-brand p{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+footer .foot .foot-brand p:hover{
+	cursor: pointer;
+	color: #eee;
+	text-shadow: 1px 1px 1px #000;
+}
+
+footer .foot .foot-brand ul li a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+
+footer .foot .foot-brand ul li a:hover{
+	cursor: pointer;
+	color: #eee;
+	text-shadow: 1px 1px 1px #000;
+}
+.footer-bottom{
+	width: 100%
+	height: 80px;
+	background-color: #286090;
+	padding-top: 10px;
+
+}
+.footer-bottom p{
+	color: #fff;
+	font-family: verdana;
+	font-size: 14px;
+}
