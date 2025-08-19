@@ -15,12 +15,14 @@ Bootstrap 5 – Responsive grid system, components, and layout utility classes
 
 CSS3 – Custom styles for branding and visual enhancements
 
-JavaScript (Vanilla) – For interactivity (e.g., cart popups, filtering, modal handling)
+JavaScript (Vanilla) – For interactivity
 
 🗂️ Project Structure:
 shopsmart/
 
 ├── index.html
+
+├── about.html
 
 ├── collection.html
 
@@ -51,7 +53,7 @@ Grid layout of latest or popular products
 
 Call-to-action section for promotions or discounts
 
-2. Product Page (product.html)
+2. Collection Page (collection.html)
 
 Detailed product view with image gallery
 
@@ -61,14 +63,19 @@ Price, description, and specifications
 
 Related product suggestions
 
-3. Cart Page (cart.html)
+3. Category Page (category.html)
 
-Table layout showing added products
+Shows products bsed on different categories
 
-Quantity controls with JavaScript-based total price calculation
+4. About Page (about.html)
 
-Option to remove items or update quantity
+   Description of website and company
+   
+5. Contact Page (contact.html)
 
+   Socials, links and contact addresses.
+
+   
 🧑‍💻 Design Highlights:
 
 Responsive Layout: Optimized for mobile, tablet, and desktop using Bootstrap's grid and utility classes.
