@@ -22,9 +22,11 @@ shopsmart/
 
 ├── index.html
 
-├── product.html
+├── collection.html
 
-├── cart.html
+├── category.html
+
+├── contact.html
 
 ├── css/
 
